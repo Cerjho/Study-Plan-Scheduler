@@ -1,0 +1,142 @@
+2025-09-06T01:53:46.022+08:00  WARN 28736 --- [StudyPlanScheduler] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h1m58s20ms274µs800ns).
+2025-09-06T07:08:49.052+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-09-06T07:08:49.083+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /api/auth/login
+2025-09-06T07:08:49.083+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /api/auth/login
+2025-09-06T07:08:49.083+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:08:49.089+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+2025-09-06T07:08:49.237+08:00  INFO 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.controller.AuthController          : Attempting login for email=jh****@gmail.com
+2025-09-06T07:08:49.520+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to find user 'jhocerbarcela1@gmail.com'
+2025-09-06T07:08:49.530+08:00  WARN 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.controller.AuthController          : Login failed for email=jh****@gmail.com: Bad credentials
+2025-09-06T07:08:59.093+08:00  WARN 28736 --- [StudyPlanScheduler] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h15m18s289ms238µs900ns).
+2025-09-06T07:08:59.619+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /
+2025-09-06T07:08:59.623+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /
+2025-09-06T07:08:59.624+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /
+2025-09-06T07:08:59.624+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:08:59.625+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /
+2025-09-06T07:08:59.629+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /index.html
+2025-09-06T07:08:59.634+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /index.html
+2025-09-06T07:08:59.704+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:08:59.704+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-BPONimbu.css
+2025-09-06T07:08:59.702+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-CK1NbPYL.js
+2025-09-06T07:08:59.705+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-BPONimbu.css
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-CK1NbPYL.js
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-BPONimbu.css
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-CK1NbPYL.js
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-BPONimbu.css
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-CK1NbPYL.js
+2025-09-06T07:08:59.707+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:05.684+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /signin
+2025-09-06T07:10:05.700+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /signin
+2025-09-06T07:10:05.700+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /signin
+2025-09-06T07:10:05.700+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:05.705+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /signin
+2025-09-06T07:10:05.705+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /index.html
+2025-09-06T07:10:05.716+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /index.html
+2025-09-06T07:10:05.858+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-CK1NbPYL.js
+2025-09-06T07:10:05.858+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:05.858+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:05.858+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-CK1NbPYL.js
+2025-09-06T07:10:05.858+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:05.858+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:05.858+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-CK1NbPYL.js
+2025-09-06T07:10:05.858+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-BPONimbu.css
+2025-09-06T07:10:05.874+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:05.879+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:05.890+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-BPONimbu.css
+2025-09-06T07:10:05.899+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-CK1NbPYL.js
+2025-09-06T07:10:05.905+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-BPONimbu.css
+2025-09-06T07:10:05.905+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:05.920+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-BPONimbu.css
+2025-09-06T07:10:12.691+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /
+2025-09-06T07:10:12.695+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /
+2025-09-06T07:10:12.696+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /
+2025-09-06T07:10:12.700+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:12.705+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /
+2025-09-06T07:10:12.713+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /index.html
+2025-09-06T07:10:12.729+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /index.html
+2025-09-06T07:10:13.016+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-CK1NbPYL.js
+2025-09-06T07:10:13.032+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-CK1NbPYL.js
+2025-09-06T07:10:13.032+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:13.032+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-BPONimbu.css
+2025-09-06T07:10:13.032+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-CK1NbPYL.js
+2025-09-06T07:10:13.032+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:13.048+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:13.032+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-6] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-BPONimbu.css
+2025-09-06T07:10:13.032+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:13.048+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:13.063+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:13.048+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-6] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-BPONimbu.css
+2025-09-06T07:10:13.063+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-CK1NbPYL.js
+2025-09-06T07:10:13.063+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:13.113+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-BPONimbu.css
+2025-09-06T07:10:30.835+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /sign-up
+2025-09-06T07:10:30.835+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-2] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /sign-up
+2025-09-06T07:10:30.835+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-2] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /sign-up
+2025-09-06T07:10:30.835+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:30.839+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /sign-up
+2025-09-06T07:10:30.839+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /index.html
+2025-09-06T07:10:30.846+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /index.html
+2025-09-06T07:10:30.952+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:30.952+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-CK1NbPYL.js
+2025-09-06T07:10:30.952+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-BPONimbu.css
+2025-09-06T07:10:30.952+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:30.952+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-BPONimbu.css
+2025-09-06T07:10:30.952+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-CK1NbPYL.js
+2025-09-06T07:10:30.959+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:30.959+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-BPONimbu.css
+2025-09-06T07:10:30.959+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:30.959+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-CK1NbPYL.js
+2025-09-06T07:10:30.959+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:30.964+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:30.964+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:30.964+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-CK1NbPYL.js
+2025-09-06T07:10:30.964+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-BPONimbu.css
+2025-09-06T07:10:37.365+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /signup
+2025-09-06T07:10:37.365+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /signup
+2025-09-06T07:10:37.365+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /signup
+2025-09-06T07:10:37.365+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:37.380+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /signup
+2025-09-06T07:10:37.380+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /index.html
+2025-09-06T07:10:37.391+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /index.html
+2025-09-06T07:10:37.502+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-BPONimbu.css
+2025-09-06T07:10:37.502+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:37.502+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-CK1NbPYL.js
+2025-09-06T07:10:37.508+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-BPONimbu.css
+2025-09-06T07:10:37.510+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:37.515+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-BPONimbu.css
+2025-09-06T07:10:37.515+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-CK1NbPYL.js
+2025-09-06T07:10:37.515+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:37.517+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:37.517+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-CK1NbPYL.js
+2025-09-06T07:10:37.517+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:37.522+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:10:37.522+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-BPONimbu.css
+2025-09-06T07:10:37.522+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:10:37.522+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-CK1NbPYL.js
+2025-09-06T07:13:42.896+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /
+2025-09-06T07:13:42.899+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /
+2025-09-06T07:13:42.900+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /
+2025-09-06T07:13:42.901+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:13:42.903+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /
+2025-09-06T07:13:42.906+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /index.html
+2025-09-06T07:13:42.909+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /index.html
+2025-09-06T07:13:43.084+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-CK1NbPYL.js
+2025-09-06T07:13:43.086+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-CK1NbPYL.js
+2025-09-06T07:13:43.087+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:13:43.089+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /assets/index-BPONimbu.css
+2025-09-06T07:13:43.092+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-CK1NbPYL.js
+2025-09-06T07:13:43.095+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:13:43.100+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] c.s.s.config.RateLimitingFilter          : Rate limiting is disabled. Proceeding with request: /assets/index-BPONimbu.css
+2025-09-06T07:13:43.103+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/index-BPONimbu.css
+2025-09-06T07:13:43.102+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:13:43.102+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] c.s.s.config.JwtAuthenticationFilter     : No JWT found in request: /assets/vendor-n1JOUva4.js
+2025-09-06T07:13:43.107+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:13:43.104+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-09-06T07:13:43.106+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-CK1NbPYL.js
+2025-09-06T07:13:43.108+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /assets/vendor-n1JOUva4.js
+2025-09-06T07:13:43.109+08:00 DEBUG 28736 --- [StudyPlanScheduler] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /assets/index-BPONimbu.css
